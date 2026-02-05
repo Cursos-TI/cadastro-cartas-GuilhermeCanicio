@@ -7,9 +7,9 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-  char estado1[50];
+  char estado1[20];
   char codigo1[20];
-  char cidade1[50];
+  char cidade1[20];
   unsigned long int populacao1;
   int ponto1;
   float area1;
@@ -19,9 +19,9 @@ int main() {
   float superpoder1;
   float inverso_densidade1;
 
-  char estado2[50];
+  char estado2[20];
   char codigo2[20];
-  char cidade2[50];
+  char cidade2[20];
   unsigned long int populacao2;
   int ponto2;
   float area2;
