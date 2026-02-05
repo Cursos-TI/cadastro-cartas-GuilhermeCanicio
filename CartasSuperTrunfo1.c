@@ -1,12 +1,8 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+int main(){
 
-int main() {
-  // Área para definição das variáveis para armazenar as propriedades das cidades
-  // Armazena as entradas da primeira carta.
+// Armazena as entradas da primeira carta.
     char estado1;
     char codigo1 [20]; 
     char cidade1 [20];
@@ -19,7 +15,6 @@ int main() {
     unsigned long int superPoder1;
     float densiinvertida1;
 
-    
 // Armazena as entradas da segunda carta.
     char estado2;
     char codigo2 [20];
@@ -49,7 +44,6 @@ int main() {
     printf("O número de habitantes da cidade:\n");
     scanf("%d", &populacao1);
 
-
     printf("A área da cidade em quilômetros quadrado:\n");
     scanf("%f", &area1);
 
@@ -77,7 +71,7 @@ int main() {
     printf("Informações da segunda carta\n");
 
     printf("Uma letra de 'A' a 'H' representando um dois oito estados:\n");
-    scanf("%c", &estado2);
+    scanf("%s", &estado2);
 
     printf("A letra do estado seguida de um número de 01 a 04 (ex: A01, B03):\n");
     scanf("%s", codigo2);
@@ -87,7 +81,6 @@ int main() {
 
     printf("O número de habitantes da cidade:\n");
     scanf("%d", &populacao2);
-   ;
 
     printf("A área da cidade em quilômetros quadrado:\n");
     scanf("%f", &area2);
@@ -96,7 +89,7 @@ int main() {
     scanf("%f", &pib2);
 
     printf("A quantidade de pontos turísticos na cidade:\n");
-    scanf("%d", &turisticos2);  
+    scanf("%d", &turisticos2); 
 
 // Calcula a Densidade Populacional e PIB per Capita.
     densidade2 = populacao2 / area2;
@@ -116,7 +109,7 @@ int main() {
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
-    printf("População: %d\n", populacao1);  
+    printf("População: %d\n", populacao1); 
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Ponto Turísticos: %d\n", turisticos1);
@@ -132,7 +125,7 @@ int main() {
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
-    printf("População: %d\n", populacao2);  
+    printf("População: %d\n", populacao2); 
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Ponto Turísticos: %d\n", turisticos2);
@@ -141,7 +134,6 @@ int main() {
 
 
     printf("\n"); // Pula uma linha.
-
 
 // Exibe a carta que venceu. 
     printf("Comparação de Cartas:\n");
@@ -154,8 +146,5 @@ int main() {
     printf("Super Poder: Carta 1 venceu %d\n", superPoder1 > superpoder2);
 
     return 0;
-    
 
-
-} 
-
+}
