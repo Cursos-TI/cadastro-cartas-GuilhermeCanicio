@@ -40,10 +40,10 @@ int main() {
     scanf("%c", &estado1);
 
     printf("A letra do estado seguida de um número de 01 a 04 (ex: A01, B03):\n");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("O nome da cidade:\n");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
 
     printf("O número de habitantes da cidade:\n");
     scanf("%d", &populacao1);
@@ -78,10 +78,10 @@ int main() {
     scanf("%s", &estado2);
 
     printf("A letra do estado seguida de um número de 01 a 04 (ex: A01, B03):\n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("O nome da cidade:\n");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade2);
 
     printf("O número de habitantes da cidade:\n");
     scanf("%d", &populacao2);
